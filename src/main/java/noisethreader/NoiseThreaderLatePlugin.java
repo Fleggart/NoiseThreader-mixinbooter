@@ -9,7 +9,7 @@ import java.util.List;
 public class NoiseThreaderLatePlugin implements ILateMixinLoader {
 
     @Override
-    public List<String> getLateMixinConfigs() {
+    public List<String> getMixinConfigs() {
         List<String> configs = new ArrayList<>();
 
         if (Loader.isModLoaded("bettercaves")) {
