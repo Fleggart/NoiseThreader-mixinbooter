@@ -1,4 +1,4 @@
-vanillapackage noisethreader.mixin.vanilla;
+package noisethreader.mixin.vanilla;
 
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
