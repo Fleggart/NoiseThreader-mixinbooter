@@ -28,7 +28,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build --no-daemon
       env:
-        # 解决 Gradle 8.x 的元数据问题
         GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx2G"
     
     - name: Upload build artifacts
