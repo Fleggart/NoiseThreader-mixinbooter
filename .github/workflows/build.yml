@@ -1,7 +1,7 @@
 name: Build Mod
 
 on:
-  workflow_dispatch:  # 只保留手动触发
+  workflow_dispatch:  
 
 jobs:
   build:
