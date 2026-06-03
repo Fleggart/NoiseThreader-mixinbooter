@@ -75,8 +75,6 @@ jar {
                 'FMLCorePlugin': mixin_loader_class,
                 'FMLCorePluginContainsFMLMod': 'true',
                 'ForceLoadAsMod': 'true',  // 构建时取消注释
-                // MixinBooter 会自动处理 TweakClass，不需要手动指定
-                // 'TweakClass': 'org.spongepowered.asm.launch.MixinTweaker'
         ])
     }
 }
